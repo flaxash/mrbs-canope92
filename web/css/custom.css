@@ -1,0 +1,20 @@
+select {
+    margin-right: 2em !important;
+    height: auto !important;
+    max-height: 150px;
+}
+div.booking_list>div {
+    font-size : 12px !important;
+    max-height : 36px !important;
+}
+.month_allRooms a.new_booking {position: absolute; top: 0; left: 0; z-index: 10}  /* needs to be above the base, but below the date (monthday) */ 
+
+.booking_list a {
+    font-size : 12px !important;
+}
+#colour_key td {
+    width : 10em !important;
+}
+a:link {
+    font-weight: normal !important;
+}

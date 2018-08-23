@@ -599,12 +599,17 @@ function create_field_entry_custom_field($field, $key, $disabled=FALSE)
         echo " <span> intervention médiateur hors action Canopé :</span> <br /> <br />";
     }
     //sélection multiple pour Axes de Versailles 2020    
-    if ($field['name'] =='liens_programme_academique') 
+    if ($field['name'] =='liens_axes_reseau') 
     {
         $params['multiple'] = TRUE; 
         echo " \t  \t <span>" . get_vocab("ctrl_click") . "</span> \n";
     }
-     if ($field['name'] =='liens_axes_prioritaires_canope') 
+     if ($field['name'] =='liens_axes_versailles_2020') 
+    {
+        $params['multiple'] = TRUE; 
+         echo " \t \t <span>" . get_vocab("ctrl_click") . "</span>\n";
+    }
+    if ($field['name'] =='partenariat_rectorat') 
     {
         $params['multiple'] = TRUE; 
          echo " \t \t <span>" . get_vocab("ctrl_click") . "</span>\n";

@@ -3020,14 +3020,18 @@ function get_enum_values( $field )
     {
         $enum = array('non','mac','pc','indifférent');
     }
-    if ($field == 'liens_programme_academique')
+    if ($field == 'liens_axes_reseau')
     {
         $enum = array('aucun','axe 1 - les nouveaux enseignants','axe 2 - le travail collaboratif','axe 3 - les langues','axe 4 - les enseignements pratiques interdisciplinaires','axe 5 - la réforme du collège','axe 6 - le parcours citoyen','axe 7 - le parcours éducation artistique et culturelle','axe 8 - le parcours Avenir','axe 9 - développer l esprit critique','axe 10 - la voie professionnelle','axe 11 - les élèves à besoins particuliers','axe 12 - éducation à la santé');
     }
-    if ($field == 'liens_axes_prioritaires_canope')
+    if ($field == 'liens_axes_versailles_2020')
     {
         
-        $enum = array('aucun','nouveaux enseignants','langues','enseignement professionnel');
+        $enum = array('aucun','a1-o1-l1 : Renouveler les approches didactiques et pédagogiques','a1-o1-l2 : Encourager l_intiative, la créativité et le travail collaboratif','a1-o2-l1 : Garantir l_acquisition d_un socle commun de connaissances, de compétences et de culture','a1-o3-l3 : Mobiliser les partenaires et les ressources','a2-o1-l1 : Agir pour améliorer le vivre-ensemble','a2-o2-l2 : Développer les partenariats internationaux et la diversité linguistique','a2-o3-l1 : Développer sa sensibilité par les arts et la culture','a2-o3-l2 : S_emparer de la culture du numérique','a2-o3-l3 : Soutenir les démarches de projet fondées sur la participation et l_implication des élèves','a3-o1-l3 : Accompagner l_entrée dans le métier et les démarches expérimentales','a3-o1-l2 : Organiser une dynamique collective de formation-action et de coopération');
+    }
+    if ($field == 'partenariat_rectorat')
+    {
+        $enum = array('aucun','DANE','DAAC','C2A2E','DSDEN92','autre');
     }
     if ($field == 'intervention_formation')
     {

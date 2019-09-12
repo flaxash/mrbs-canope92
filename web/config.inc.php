@@ -104,7 +104,7 @@ $mrbs_admin_email = "xavier.aubrun@reseau-canope.fr";
 // The company name is mandatory.   It is used in the header and also for email notifications.
 // The company logo, additional information and URL are all optional.
 
-$mrbs_company = "Atelier Canopé 92 - Suresnes";   // This line must always be uncommented ($mrbs_company is used in various places)
+$mrbs_company = "Atelier Canopé 92 - Vanves";   // This line must always be uncommented ($mrbs_company is used in various places)
 
 // Uncomment this next line to use a logo instead of text for your organisation in the header
 $mrbs_company_logo = "images/canope_200px.png";    // name of your logo file.   This example assumes it is in the MRBS directory

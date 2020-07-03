@@ -416,8 +416,10 @@ $vocab_override['fr']['entry.action_co-design'] = "action élaborée en co-desig
 $vocab_override['fr']['entry.action_facturee'] = "action facturée (montant)";
 $vocab_override['fr']['entry.lien_ESPE'] = "lien avec l'ESPE";
 $vocab_override['fr']['entry.action_prestataire'] = "action réalisée par un prestataire";
-$vocab_override['fr']['entry.	recette_vente'] = "recette table de vente";
+$vocab_override['fr']['entry.recette_vente'] = "recette table de vente";
 $vocab_override['fr']['entry.fiche_noticia'] = "fiche Noticia";
+$vocab_override['fr']['entry.num_fiche'] = "numéro de la fiche";
+
 
 
 

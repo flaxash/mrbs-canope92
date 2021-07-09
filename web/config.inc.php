@@ -79,12 +79,14 @@ $db_persist = FALSE;
 $auth["type"] = "config";
 //users 
 $auth["user"]["xavier"] = "axa92100";
-$auth["user"]["canope92"] = "gestion!";
+$auth["user"]["canope92"] = "gestion92!";
+$auth["user"]["canope75"] = "gestion75!";
 $auth["user"]["administrator"] = "rnsdc92100";
 
 
 $auth["admin"][] = "xavier";
 $auth["admin"][] = "canope92";
+$auth["admin"][] = "canope75";
 $auth["admin"][] = "administrator";
 /* Add lines from systemdefaults.inc.php and areadefaults.inc.php below here
    to change the default configuration. Do _NOT_ modify systemdefaults.inc.php
@@ -104,13 +106,25 @@ $mrbs_admin_email = "xavier.aubrun@reseau-canope.fr";
 // The company name is mandatory.   It is used in the header and also for email notifications.
 // The company logo, additional information and URL are all optional.
 
-$mrbs_company = "Atelier Canopé 92 - Suresnes";   // This line must always be uncommented ($mrbs_company is used in various places)
+$mrbs_company = "Atelier Canopé Vanves";   // This line must always be uncommented ($mrbs_company is used in various places)
 
 // Uncomment this next line to use a logo instead of text for your organisation in the header
 $mrbs_company_logo = "images/canope_200px.png";    // name of your logo file.   This example assumes it is in the MRBS directory
 
 // Start of week: 0 for Sunday, 1 for Monday, etc.
 $weekstarts = 1;
+
+// The default settings below (along with the 30 minute resolution above)
+// give you 24 half-hourly slots starting at 07:00, with the last slot
+// being 18:30 -> 19:00
+
+// The beginning of the first slot of the day (DEFAULT VALUES FOR NEW AREAS)
+$morningstarts         = 7;   // must be integer in range 0-23
+$morningstarts_minutes = 0;   // must be integer in range 0-59
+
+// The beginning of the last slot of the day (DEFAULT VALUES FOR NEW AREAS)
+$eveningends           = 20;  // must be integer in range 0-23
+$eveningends_minutes   = 30;   // must be integer in range 0-59
 
 // Days of the week that should be hidden from display
 // 0 for Sunday, 1 for Monday, etc.
@@ -123,7 +137,7 @@ $weekstarts = 1;
 // [Note that although they are hidden from display in the week and month views, they 
 // can still be booked from the edit_entry form and you can display the bookings by
 // jumping straight into the day view from the date selector.]
-$hidden_days = array(0,6);
+$hidden_days = array(0);
 
 // Trailer date format: 0 to show dates as "Jul 10", 1 for "10 Jul"
 $dateformat = 1;
@@ -133,7 +147,7 @@ $dateformat = 1;
 $twentyfourhour_format = 1;
 
 // The number of years back and ahead the date selectors should go
-$year_range['back'] = 0;
+$year_range['back'] = -1;
 $year_range['ahead'] = 1;
 
 //Themes

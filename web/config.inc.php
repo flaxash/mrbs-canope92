@@ -137,7 +137,7 @@ $eveningends_minutes   = 30;   // must be integer in range 0-59
 // [Note that although they are hidden from display in the week and month views, they 
 // can still be booked from the edit_entry form and you can display the bookings by
 // jumping straight into the day view from the date selector.]
-$hidden_days = array(0);
+$hidden_days = array(0,6);
 
 // Trailer date format: 0 to show dates as "Jul 10", 1 for "10 Jul"
 $dateformat = 1;
@@ -147,7 +147,7 @@ $dateformat = 1;
 $twentyfourhour_format = 1;
 
 // The number of years back and ahead the date selectors should go
-$year_range['back'] = -1;
+$year_range['back'] = 2;
 $year_range['ahead'] = 1;
 
 //Themes
@@ -160,16 +160,26 @@ $theme = "canope92";
 $custom_css_url = 'css/custom.css';
 
 //types
+unset($booking_types);
 $booking_types[] = "A";
 $booking_types[] = "B";
 $booking_types[] = "C";
 $booking_types[] = "D";
+$booking_types[] = "E";
 $booking_types[] = "F";
 $booking_types[] = "G";
 $booking_types[] = "H";
+$booking_types[] = "I";
+$booking_types[] = "J";
+$booking_types[] = "K";
+$booking_types[] = "L";
+$booking_types[] = "M";
+$booking_types[] = "N";
+$booking_types[] = "O";
+$booking_types[] = "P";
 
 // Default type for new bookings
-$default_type = "C";
+$default_type = "A";
 
 // Default description for new bookings
 $default_description = "";

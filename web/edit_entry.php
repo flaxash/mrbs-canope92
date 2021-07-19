@@ -583,7 +583,9 @@ function create_field_entry_custom_field($field, $key, $disabled=FALSE)
     $params['attributes'][] = 'cols="40"';
     generate_textarea($params);   
   }
-  // *canope*
+  //
+  // *canope92*
+  // 
   //Output a select list if it's an enum 
   elseif ($field['nature'] == 'enum')
   {

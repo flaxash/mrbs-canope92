@@ -43,8 +43,8 @@ $vocab["editentry"]          = "Éditer cette réservation";
 $vocab["copyentry"]          = "Copier la réservation";
 $vocab["editseries"]         = "Éditer la périodicité";
 $vocab["copyseries"]         = "Copier la périodicité";
-$vocab["namebooker"]         = "Brève description";
-$vocab["fulldescription"]    = "Description complète";
+$vocab["namebooker"]         = "Nom de l'action";
+$vocab["fulldescription"]    = "Description de l'action";
 $vocab["date"]               = "Date";
 $vocab["start"]              = "Début";
 $vocab["end"]                = "Fin";
@@ -390,21 +390,29 @@ $vocab["back"]               = "Retour";
 
 
 // Entry types
-$vocab["type.A"]            = "DAFPA";
-$vocab["type.B"]            = "DSDEN92";
-$vocab["type.C"]            = "CANOPE92";
-$vocab["type.D"]            = "ESPE";
-$vocab["type.E"]            = "RESEAU-CANOPE";
-$vocab["type.F"]            = "CD92";
-$vocab["type.G"]            = "AUTRE";
-$vocab["type.H"]            = "RECTORAT";
-$vocab["type.I"]            = "VILLE";
+$vocab["type.A"]            = "AC 92";
+$vocab["type.B"]            = "AC 75";
+$vocab["type.C"]            = "RESEAU CANOPE";
+$vocab["type.D"]            = "DSDEN 92";
+$vocab["type.E"]            = "DSDEN 75";
+$vocab["type.F"]            = "DASCO 75";
+$vocab["type.G"]            = "DAFOR VERSAILLES";
+$vocab["type.H"]            = "DAFOR PARIS";
+$vocab["type.I"]            = "INSPE VERSAILLES";
+$vocab["type.J"]            = "INSPE PARIS";
+$vocab["type.K"]            = "CD 92";
+$vocab["type.L"]            = "CD 75";
+$vocab["type.M"]            = "S&Y NUMERIQUE";
+$vocab["type.N"]            = "RECTORAT VERSAILLES";
+$vocab["type.O"]            = "RECTORAT PARIS";
+$vocab["type.P"]            = "AUTRE";
 
 
 //Canope92
 $vocab["type"] = "demandeur";
 $vocab["match_type"] = "demandeur";
-$vocab_override['fr']['entry.nb_inscrits'] = "nombre d'inscrits";
+$vocab_override['fr']['entry.atelier92'] = "Atelier 92";
+$vocab_override['fr']['entry.atelier75'] = "Atelier 75";
 $vocab_override['fr']['entry.type_action'] = "type d'action";
 $vocab_override['fr']['entry.classe_nomade'] = "besoins en classe nomade";
 $vocab_override['fr']['entry.intervention_formation'] = "intervention médiateur pour formation";
@@ -416,8 +424,10 @@ $vocab_override['fr']['entry.action_co-design'] = "action élaborée en co-desig
 $vocab_override['fr']['entry.action_facturee'] = "action facturée (montant)";
 $vocab_override['fr']['entry.lien_ESPE'] = "lien avec l'ESPE";
 $vocab_override['fr']['entry.action_prestataire'] = "action réalisée par un prestataire";
-$vocab_override['fr']['entry.	recette_vente'] = "recette table de vente";
 $vocab_override['fr']['entry.fiche_noticia'] = "fiche Noticia";
+$vocab_override['fr']['entry.num_fiche'] = "référence de la fiche Noticia";
+$vocab_override['fr']['entry.contact'] = "Contact MRS pour la réservation";
+
 
 
 

@@ -1,7 +1,6 @@
 select {
     margin-right: 2em !important;
     height: auto !important;
-    max-height: 150px;
 }
 div.booking_list>div {
     font-size : 12px !important;
@@ -17,4 +16,31 @@ div.booking_list>div {
 }
 a:link {
     font-weight: normal !important;
+}
+table#colour_key {
+    width: 100% !important;
+}
+/*
+Mise en forme des champs textarea
+*/
+.form_general input {
+  width: 40em;
+}
+.form_general textarea {
+    width: 40em;
+    height: 4em; 
+    margin-bottom: 0.5em;
+}
+.form_general select {
+  margin-right: -0.5em;
+  margin-bottom: 1em;
+}
+#f_action_facturee {
+    width:10em;
+}
+#f_num_fiche {
+    width:10em;
+}
+#f_nb_inscrits {
+    width:10em;
 }

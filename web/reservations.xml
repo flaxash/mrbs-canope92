@@ -1,0 +1,8 @@
+<?xml version=\"1.0\" encoding=\"UTF-8\" ?>
+<reservations>
+    <reservation nom="VD PAF - nouveaux enseignants" salle="13" debut="13:00" fin="17:00" />
+    <reservation nom="SCOLARISATION DES MOINS DE 3 ANS" salle="18" debut="09:00" fin="12:00" />
+    <reservation nom="ASH : faisant fonction" salle="19" debut="10:00" fin="17:00" />
+    <reservation nom="REUNION ROBOTIQUE" salle="12" debut="9:00" fin="12:00" />
+    <reservation nom="GD VDLR" salle="12" debut="14:00" fin="17:00" />
+</reservations>
